@@ -25,4 +25,9 @@ public class YuliaControler {
     public String oop(){
         return "oop";
     }
+
+    @RequestMapping("/hcb")
+    public String hcb(){
+        return "hcb";
+    }
 }
