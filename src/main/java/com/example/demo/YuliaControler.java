@@ -20,4 +20,9 @@ public class YuliaControler {
     public String coreJava(){
         return "coreJava";
     }
+
+    @RequestMapping("/oop")
+    public String oop(){
+        return "oop";
+    }
 }
