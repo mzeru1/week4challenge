@@ -15,4 +15,9 @@ public class YuliaControler {
     public String programDesign(){
         return "programDesign";
     }
+
+    @RequestMapping("/coreJava")
+    public String coreJava(){
+        return "coreJava";
+    }
 }
