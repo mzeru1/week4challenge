@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Git Set-up</h1>
+<h3>May 10, 2019</h3>
+<p1>
+    When you set up a new machine, you only need to configure the author once.<br/>
+    If you run "git config -l" you'll see the existing configurations.<br/>
+    Run the following if you're doing this for the first time:<br/>
+</p1>
+<ul>
+    git config --global user.name "yourUsername"<br/>
+    git config --global user.email yourEmail@domain.com<br/>
+</ul>
+<p1>
+    In command prompt, go to the project folder, and once you're inside,<br/>
+    initialize the repository and add the corresponding git repository address:<br/>
+</p1>
+<ul>
+    git init<br/>
+    git remote add origin https://github.com/yourUsername/yourRepository.git<br/>
+</ul>
+<p1>
+    When you want to save and commit your changes, use "add" and "commit" -- this is like CTRL-S in word doc.<br/>
+    Then use "push" to upload the changes to your Github repository<br/>
+</p1>
+<ul>
+    git add .
+    git commit -m "commit message"<br/>
+    git push -u origin master<br/>
+</ul>
+<p1>
+    For more info on GIT commands:
+</p1>
+<ul>
+    <li>
+        <a href="https://education.github.com/git-cheat-sheet-education.pdf">GIT CHEAT SHEET</a>
+    </li>
+</ul>
+
+</body>
+</html>
